@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    height: fit-content;
+}
+form > label {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    place-self: center;
+}
+
+form > input {
+    padding: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    border: 2px solid #00000055;
+    border-radius: 5px;
+    height: fit-content;
+    place-self: center;
+}
+
+form > button {
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background-color: #101010;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    height: fit-content;
+    place-self: center;
+}
+
+form .error {
+    color: red;
+    margin-left: 10px;
+    width: 500px;
+    text-wrap: pretty;
+    place-items: center;
+}
